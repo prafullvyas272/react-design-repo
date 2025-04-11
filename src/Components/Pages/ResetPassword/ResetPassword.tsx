@@ -4,7 +4,8 @@ export default function ResetPassword() {
   return (
     <>
       {/* Update your template: <html class="h-full bg-white"> <body class="h-full"> */}
-      <p className="m-5 flex logo-text">
+      <p className="m-5 flex logo-text go-back">
+
           <img src="/assets/arrow.png" className="w-5 h-5 mr-3" />
           Go Back
         </p>
@@ -17,10 +18,10 @@ export default function ResetPassword() {
               className=" h-10 w-auto"
             />
           </div>
-          <h2 className="mt-5 text-2xl font-bold tracking-tight text-gray-900">
+          <h2 className="mt-5 text-2xl font-bold tracking-tight text-gray-900" style={{ fontWeight: 500 }}>
             Reset Your Password
           </h2>
-          <p className="mt-2">
+          <p className="mt-2" style={{ fontWeight: 300 }}>
             Enter your email address below and we’ll send you a secure link to
             reset your password.
           </p>
@@ -48,6 +49,7 @@ export default function ResetPassword() {
             <div>
               <button
                 type="submit"
+                style={{ fontWeight: 600 }}
                 className="flex w-full justify-center rounded-md  px-3 py-1.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2"
               >
                 Send Reset Password Instructions
@@ -55,12 +57,12 @@ export default function ResetPassword() {
             </div>
           </form>
 
-          <p className="mt-4 text-center text-sm text-gray-500">
+          <p className="mt-4 text-center text-sm text-gray-500" style={{ fontWeight: 300 }}>
             Remembered your password?
             <a
               href="login"
               className="font-semibold pl-1 text-indigo-600 hover:text-indigo-500"
-            >
+              style={{ fontWeight: 500 }}>
               Log in
             </a>
           </p>

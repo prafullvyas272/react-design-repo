@@ -24,10 +24,10 @@ export default function Register() {
               src="/assets/logo.svg"
               className="h-10 w-auto mb-6"
             />
-            <h2 className="text-2xl font-bold tracking-tight text-gray-900">
+            <h2 className="text-2xl font-bold tracking-tight text-gray-900" style={{ fontWeight :500 }}>
               Register
             </h2>
-            <p className="mt-2 text-gray-600 text-sm">
+            <p className="mt-2 text-gray-600 text-sm" style={{ fontWeight :300}}>
               Get the medical advice you need—quickly and easily. Start chatting
               with a doctor from the comfort of your home.
             </p>
@@ -86,7 +86,7 @@ export default function Register() {
               </div>
 
               <div className="text-sm text-gray-600">
-                <label className="inline-flex items-center">
+                <label className="inline-flex items-center" style={{ fontWeight: 450}}>
                   <input
                     id="tnc"
                     name="tnc"
@@ -107,6 +107,7 @@ export default function Register() {
               <div>
                 <button
                   type="submit"
+                  style={{ fontWeight: 600}}
                   className="w-full rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-600"
                 >
                   Create Account
@@ -115,9 +116,10 @@ export default function Register() {
             </form>
 
             <p className="mt-4 text-center text-sm text-gray-500">
-              Already have an account?
+              <span style={{ fontWeight: 300 }}>Already have an account?</span>
               <a
                 href="/login"
+                style={{ fontWeight: 500}}
                 className="ml-1 font-semibold text-indigo-600 hover:text-indigo-500"
               >
                 Login
@@ -138,7 +140,7 @@ export default function Register() {
               Clinicians Using <br />
               <span className="special-text">Medikal.ai</span>
             </h2>
-            <p className=" text-gray-600 text-left">
+            <p className=" text-gray-600 text-left" style={{ fontWeight: 400 }} >
               Sign up in seconds. Save hours every day.
             </p>
           </div>

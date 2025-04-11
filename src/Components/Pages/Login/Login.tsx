@@ -4,7 +4,7 @@ export default function Login() {
   return (
     <>
       
-      <p className="m-5 flex logo-text ">
+      <p className="m-5 flex logo-text go-back ">
           <img src="/assets/arrow.png" className=" mr-3" />
           <span >Go Back</span>
         </p>
@@ -20,7 +20,7 @@ export default function Login() {
           <h2 className="mt-5 text-2xl font-bold tracking-tight text-gray-900">
             Log In
           </h2>
-          <p className="mt-2">
+          <p className="mt-2 sub-heading-text">
             Access your notes, manage patients, and stay on top of your
             documentation—securely and efficiently.
           </p>
@@ -64,7 +64,7 @@ export default function Login() {
             <div className="text-sm">
               <a
                 href="reset-password"
-                className="font-semibold text-indigo-600 hover:text-indigo-500"
+                className="font-semibold forgot-password  underline"
               >
                 Forgot Password?
               </a>
@@ -75,18 +75,18 @@ export default function Login() {
                 type="submit"
                 className="flex w-full justify-center rounded-md  px-3 py-1.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2"
               >
-                Login
+                Log In
               </button>
             </div>
           </form>
 
           <p className="mt-4 text-center text-sm text-gray-500">
-            Don't have an account?  
+            <span className="dont-have-account">Don't have an account?</span>
             <a
               href="register"
-              className="font-semibold pl-1 text-indigo-600 hover:text-indigo-500"
+              className="font-semibold pl-1 text-indigo-600 hover:text-indigo-500 create-account-btn"
             >
-               Create Account
+              Create Account
             </a>
           </p>
         </div>

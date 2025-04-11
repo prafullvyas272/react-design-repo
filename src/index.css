@@ -6,6 +6,8 @@
   font-weight: 400;
 
 }
+/* styles.css or a module.css file */
+
 
 
 body {
@@ -124,4 +126,30 @@ a {
 }
 .register-footer-div {
   margin-top: 70px;
+}
+
+@media (min-width: 1024px) {
+  .go-back {
+    margin-left: 120px;
+  }
+}
+
+.sub-heading-text {
+  font-weight: 300;
+  color: #435465;
+
+}
+
+.forgot-password {
+  color: #1662C5;
+  font-weight: 450;
+
+}
+
+.dont-have-account {
+  font-weight: 300;
+}
+
+.create-account-btn{
+  font-weight: 500;
 }
