@@ -19,7 +19,6 @@ export default function Register() {
           </p>
 
           <form onSubmit={(e) => e.preventDefault()} className="space-y-5 mt-6">
-            {/* Email */}
             <div className="relative">
               <span className="absolute register-icons inset-y-0 left-0 pl-3 flex items-center pointer-events-none border-r border-gray-300 mr-2">
                 <img src="/assets/email.svg" alt="email" className="w-5 h-5" />
@@ -35,7 +34,6 @@ export default function Register() {
               />
             </div>
 
-            {/* Create Password */}
             <div className="relative">
               <span className="absolute register-icons inset-y-0 left-0 pl-3 flex items-center pointer-events-none border-r border-gray-300 mr-2">
                 <img src="/assets/lock.svg" alt="lock" className="w-5 h-5" />
@@ -51,7 +49,6 @@ export default function Register() {
               />
             </div>
 
-            {/* Confirm Password */}
             <div className="relative">
               <span className="absolute register-icons inset-y-0 left-0 pl-3 flex items-center pointer-events-none border-r border-gray-300 mr-2">
                 <img src="/assets/lock.svg" alt="lock" className="w-5 h-5" />
@@ -67,7 +64,6 @@ export default function Register() {
               />
             </div>
 
-            {/* Terms & Conditions */}
             <div className="text-sm text-gray-600">
               <label className="inline-flex items-center">
                 <input
@@ -81,7 +77,6 @@ export default function Register() {
               </label>
             </div>
 
-            {/* Submit Button */}
             <div>
               <button
                 type="submit"
@@ -92,7 +87,6 @@ export default function Register() {
             </div>
           </form>
 
-          {/* Already have an account */}
           <p className="mt-4 text-center text-sm text-gray-500">
             Already have an account?
             <a href="/login" className="ml-1 font-semibold text-indigo-600 hover:text-indigo-500">
