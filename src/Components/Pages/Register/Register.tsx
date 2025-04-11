@@ -4,10 +4,17 @@ export default function Register() {
   return (
     <>
      
-     <p className="m-5 flex logo-text">
-          <img src="/assets/arrow.png" className="w-5 h-5 mr-3" />
-          Go Back
-        </p>
+     <div className="grid grid-cols-2 ">
+      <div>
+      <p className="m-5 flex logo-text">
+        <img src="/assets/arrow.png" className="w-5 h-5 mr-3" />
+        Go Back
+      </p>
+      </div>
+      <div className="flex flex-col justify-center px-6 py-12 bg-gray-50 w-full relative">
+        </div>
+     </div>
+     
       <div className="grid grid-cols-1 lg:grid-cols-2 min-h-screen bg-white">
         {/* First Section */}
 
@@ -90,12 +97,12 @@ export default function Register() {
                     required
                   />
                   I accept{" "}
-                  <a
+                  <p
                     href="#"
-                    className="ml-1 font-semibold text-indigo-600 hover:underline"
+                    className="ml-1 font-semibold text-gray-700 underline "
                   >
                     Terms of Service and Privacy Policy
-                  </a>
+                  </p>
                 </label>
               </div>
 
