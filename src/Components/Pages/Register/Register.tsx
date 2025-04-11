@@ -3,18 +3,16 @@ import Footer from "../../Footer/Footer";
 export default function Register() {
   return (
     <>
-     
-     <div className="grid grid-cols-1 lg:grid-cols-2 ">
-      <div>
-      <p className="m-5 flex logo-text">
+    
+    <div className="grid grid-cols-2">
+    <p className="mt-4 ml-4 flex logo-text ">
         <img src="/assets/arrow.png" className="w-5 h-5 mr-3" />
         Go Back
       </p>
-      </div>
-      <div className="flex flex-col justify-center px-6 py-12 bg-gray-50 w-full relative">
-        </div>
-     </div>
-     
+      <p className=" bg-gray-50 ">
+      </p>
+    </div>
+    
       <div className="grid grid-cols-1 lg:grid-cols-2 min-h-screen bg-white">
         {/* First Section */}
 
@@ -140,17 +138,17 @@ export default function Register() {
               Clinicians Using <br />
               <span className="special-text">Medikal.ai</span>
             </h2>
-            <p className="mt-2 text-gray-600 text-left">
+            <p className="m-1 text-gray-600 text-left">
               Sign up in seconds. Save hours every day.
             </p>
           </div>
 
           {/* Image at bottom, aligned right */}
-          <div className="w-full mt-6 flex justify-end">
+          <div className="w-full  flex justify-end">
             <img
               alt="Mobile preview"
               src="/assets/mobiles.png"
-              className="w-auto h-auto max-w-full"
+              className="w-auto max-w-full"
             />
           </div>
         </div>
