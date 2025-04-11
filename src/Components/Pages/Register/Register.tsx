@@ -138,7 +138,7 @@ export default function Register() {
               Clinicians Using <br />
               <span className="special-text">Medikal.ai</span>
             </h2>
-            <p className="m-1 text-gray-600 text-left">
+            <p className=" text-gray-600 text-left">
               Sign up in seconds. Save hours every day.
             </p>
           </div>
