@@ -1,21 +1,46 @@
 @import "tailwindcss";
 
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* font-family: 'Aspekta', sans-serif; */
   line-height: 1.5;
   font-weight: 400;
- 
+
 }
- 
+
 
 body {
-  margin: 0; 
+  margin: 0;
+  font-family: 'Aspekta', sans-serif;
+
 }
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  /* width: 100%;
+  max-width: 540px;
+  height: 60px; */
+  width: 504;
+  height: 60;
+  gap: 16px;
+  border-radius: 15px;
+  padding-top: 11px;
+  padding-right: 18px;
+  padding-bottom: 11px;
+  border-width: 1px;
+}
+
 
 button {
   background: #1662C5;
-  /* width: 504px;
-  height: 276px; */
+  width: 504;
+  height: 68;
+  gap: 7px;
+  border-radius: 15px;
+  padding-top: 21px;
+  padding-right: 20px;
+  padding-bottom: 21px;
+  padding-left: 20px;
 }
 
 p {
@@ -23,17 +48,20 @@ p {
 }
 
 a {
-   color: #1662C5;
+  color: #1662C5;
 }
 
-.login-icons, .register-icons {
+.login-icons,
+.register-icons {
   border-right: 1px solid rgb(191, 191, 191);
-  padding-right: 5px; /* Space before the border */
+  padding-right: 5px;
+  /* Space before the border */
 
 }
 
 .login-page-input {
-  padding-right: 125px; /* Space before the border */
+  padding-right: 125px;
+  /* Space before the border */
 }
 
 .right-div-register {
@@ -44,4 +72,3 @@ a {
   color: #006FFF;
 
 }
-

@@ -30,7 +30,7 @@ export default function Register() {
                 required
                 placeholder="Email"
                 autoComplete="email"
-                className="pl-10 py-2 block w-full rounded-md bg-white border border-gray-300 text-base text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-600 sm:text-sm"
+                className="pl-14 py-2 block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 border border-gray-300 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-600 sm:text-sm"
               />
             </div>
 
@@ -45,7 +45,7 @@ export default function Register() {
                 required
                 placeholder="Create Password"
                 autoComplete="new-password"
-                className="pl-10 py-2 block w-full rounded-md bg-white border border-gray-300 text-base text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-600 sm:text-sm"
+                className="pl-14 py-2 block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 border border-gray-300 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-600 sm:text-sm"
               />
             </div>
 
@@ -60,7 +60,8 @@ export default function Register() {
                 required
                 placeholder="Confirm Password"
                 autoComplete="new-password"
-                className="pl-10 py-2 block w-full rounded-md bg-white border border-gray-300 text-base text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-600 sm:text-sm"
+                className="pl-14 py-2 block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 border border-gray-300 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-600 sm:text-sm"
+
               />
             </div>
 
