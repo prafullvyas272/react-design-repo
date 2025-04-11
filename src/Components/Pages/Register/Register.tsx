@@ -3,21 +3,17 @@ import Footer from "../../Footer/Footer";
 export default function Register() {
   return (
     <>
-      {/* <div>
-      <p className="m-5 flex logo-text">
-        <img src="/assets/arrow.png" className="w-5 h-5 mr-3" />
-        Go Back
-      </p>
-    </div> */}
-      {/* <p className="m-5 flex logo-text">
+     
+     <p className="m-5 flex logo-text">
           <img src="/assets/arrow.png" className="w-5 h-5 mr-3" />
           Go Back
-        </p> */}
+        </p>
       <div className="grid grid-cols-1 lg:grid-cols-2 min-h-screen bg-white">
         {/* First Section */}
 
         <div className="flex flex-col justify-center px-6 py-12 mb-10 lg:px-20">
           <div className="mx-auto w-full max-w-sm">
+            
             <img
               alt="Your Company"
               src="/assets/logo.svg"
@@ -123,7 +119,9 @@ export default function Register() {
               </a>
             </p>
           </div>
-          {/* <Footer /> */}
+          <div className="register-footer-div">
+            <Footer />
+          </div>
         </div>
 
         {/* Second Section */}
