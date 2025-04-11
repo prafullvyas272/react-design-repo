@@ -12,4 +12,27 @@ body {
   margin: 0; 
 }
 
- 
+button {
+  background: #1662C5;
+  /* width: 504px;
+  height: 276px; */
+}
+
+p {
+  color: #435465;
+}
+
+a {
+   color: #1662C5;
+}
+
+.login-icons {
+  border-right: 1px solid gray;
+  padding-right: 5px; /* Space before the border */
+
+}
+
+.login-page-input {
+  padding-right: 125px; /* Space before the border */
+
+}

@@ -6,11 +6,11 @@ import Router from "../router/Router";
 const Layout = () => {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <main className="min-h-screen">
         <Router />
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
