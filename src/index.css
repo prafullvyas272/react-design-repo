@@ -72,3 +72,40 @@ a {
   color: #006FFF;
 
 }
+
+.second-section {
+  width: 941;
+  height: 1080;
+  gap: 10px;
+  left: 979px;
+  padding-top: 130px;
+  padding-right: 140px;
+  padding-bottom: 130px;
+  padding-left: 140px;
+
+
+}
+
+
+.second-section>div>h2 {
+  /* font-family: Aspekta; */
+  font-size: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+
+
+}
+
+.special-text {
+  color: #006FFF;
+
+}
+
+.mobile-img {
+  width: 885px;
+  height: 434px;
+  angle: -17.02 deg;
+  top: 386px;
+  left: 1286.09px;
+
+}

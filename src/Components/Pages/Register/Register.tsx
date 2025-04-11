@@ -2,9 +2,19 @@ import React from "react";
 import Footer from "../../Footer/Footer";
 export default function Register() {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 min-h-screen bg-white">
+    <>
+    {/* <div>
+      <p className="m-5 flex logo-text">
+        <img src="/assets/arrow.png" className="w-5 h-5 mr-3" />
+        Go Back
+      </p>
+    </div> */}
+   
+     <div className="grid grid-cols-1 lg:grid-cols-2 min-h-screen bg-white">
       {/* First Section */}
+      
       <div className="flex flex-col justify-center px-6 py-12 lg:px-20">
+        
         <div className="mx-auto w-full max-w-sm">
           <img
             alt="Your Company"
@@ -100,29 +110,29 @@ export default function Register() {
       </div>
 
       {/* Second Section */}
-      <div className="flex flex-col justify-center px-6 py-12 bg-gray-50 lg:px-20">
-        <div className="mx-auto w-full max-w-sm text-center">
-          <img
-            alt="Your Company"
-            src="/assets/logo.svg"
-            className="h-10 w-auto mb-6 mx-auto"
-          />
-          <h2 className="text-2xl font-semibold text-gray-900">
-            Join Thousands of Clinicians Using <span className="text-indigo-600">Medikal.ai</span>
+      <div className="flex second-section flex-col justify-center px-6 py-12 bg-gray-50 lg:px-20">
+        <div className="">
+          
+          <h2 className="font-semibold">
+            Join Thousands of <br></br>Clinicians Using<br></br> <span className="special-text">Medikal.ai</span>
           </h2>
-          <p className="mt-2 text-gray-600">
+          <p className="mt-2 text-gray-600 text-left">
             Sign up in seconds. Save hours every day.
           </p>
 
-          <img
+          
+        </div>
+        <img
             alt="Mobile preview"
             src="/assets/mobiles.png"
-            className="mt-8 w-full max-w-xs mx-auto md:max-w-sm"
+            className=" mobile-img"
           />
-        </div>
       </div>
       <Footer />
 
     </div>
+    
+    </>
+   
   );
 }

@@ -13,11 +13,8 @@ const Layout = () => {
   return (
     <div className="flex flex-col min-h-screen">
       {/* <Header /> */}
-      <main className="flex-grow">
-        <p className="m-5 flex logo-text">
-          <img src="/assets/arrow.png" className="w-5 h-5 mr-3" />
-          Go Back
-        </p>
+      <main >
+        
         <Router />
       </main>
 
