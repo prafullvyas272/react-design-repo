@@ -4,6 +4,10 @@ export default function Login() {
   return (
     <>
       {/* Update your template: <html class="h-full bg-white"> <body class="h-full"> */}
+      <p className="m-5 flex logo-text">
+          <img src="/assets/arrow.png" className="w-5 h-5 mr-3" />
+          Go Back
+        </p>
       <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
           <div className="mt-10 text-2xl font-bold tracking-tight text-gray-900">

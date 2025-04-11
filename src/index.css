@@ -87,7 +87,7 @@ a {
 }
 
 
-.second-section>div>h2 {
+.second-section>h2 {
   /* font-family: Aspekta; */
   font-size: 28px;
   letter-spacing: 0%;
