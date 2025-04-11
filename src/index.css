@@ -26,13 +26,22 @@ a {
    color: #1662C5;
 }
 
-.login-icons {
-  border-right: 1px solid gray;
+.login-icons, .register-icons {
+  border-right: 1px solid rgb(191, 191, 191);
   padding-right: 5px; /* Space before the border */
 
 }
 
 .login-page-input {
   padding-right: 125px; /* Space before the border */
+}
+
+.right-div-register {
+  background: #F4F8F9;
+}
+
+.logo-text {
+  color: #006FFF;
 
 }
+

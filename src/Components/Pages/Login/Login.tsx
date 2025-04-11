@@ -59,10 +59,10 @@ export default function Login() {
             </div>
             <div className="text-sm">
               <a
-                href="javascript:void(0);"
+                href="reset-password"
                 className="font-semibold text-indigo-600 hover:text-indigo-500"
               >
-                Forgot password?
+                Forgot Password?
               </a>
             </div>
 
@@ -79,7 +79,7 @@ export default function Login() {
           <p className="mt-4 text-center text-sm text-gray-500">
             Don't have an account?  
             <a
-              href="javascript:void(0);"
+              href="register"
               className="font-semibold pl-1 text-indigo-600 hover:text-indigo-500"
             >
                Create Account
