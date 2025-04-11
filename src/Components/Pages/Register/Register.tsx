@@ -8,7 +8,7 @@ export default function Register() {
         <div className="mx-auto w-full max-w-sm">
           <img
             alt="Your Company"
-            src="/src/assets/logo.svg"
+            src="/assets/logo.svg"
             className="h-10 w-auto mb-6"
           />
           <h2 className="text-2xl font-bold tracking-tight text-gray-900">
@@ -22,7 +22,7 @@ export default function Register() {
             {/* Email */}
             <div className="relative">
               <span className="absolute register-icons inset-y-0 left-0 pl-3 flex items-center pointer-events-none border-r border-gray-300 mr-2">
-                <img src="/src/assets/email.svg" alt="email" className="w-5 h-5" />
+                <img src="/assets/email.svg" alt="email" className="w-5 h-5" />
               </span>
               <input
                 id="email"
@@ -38,7 +38,7 @@ export default function Register() {
             {/* Create Password */}
             <div className="relative">
               <span className="absolute register-icons inset-y-0 left-0 pl-3 flex items-center pointer-events-none border-r border-gray-300 mr-2">
-                <img src="/src/assets/lock.svg" alt="lock" className="w-5 h-5" />
+                <img src="/assets/lock.svg" alt="lock" className="w-5 h-5" />
               </span>
               <input
                 id="password"
@@ -54,7 +54,7 @@ export default function Register() {
             {/* Confirm Password */}
             <div className="relative">
               <span className="absolute register-icons inset-y-0 left-0 pl-3 flex items-center pointer-events-none border-r border-gray-300 mr-2">
-                <img src="/src/assets/lock.svg" alt="lock" className="w-5 h-5" />
+                <img src="/assets/lock.svg" alt="lock" className="w-5 h-5" />
               </span>
               <input
                 id="confirmPassword"
@@ -109,7 +109,7 @@ export default function Register() {
         <div className="mx-auto w-full max-w-sm text-center">
           <img
             alt="Your Company"
-            src="/src/assets/logo.svg"
+            src="/assets/logo.svg"
             className="h-10 w-auto mb-6 mx-auto"
           />
           <h2 className="text-2xl font-semibold text-gray-900">
@@ -121,7 +121,7 @@ export default function Register() {
 
           <img
             alt="Mobile preview"
-            src="/src/assets/mobiles.png"
+            src="/assets/mobiles.png"
             className="mt-8 w-full max-w-xs mx-auto md:max-w-sm"
           />
         </div>

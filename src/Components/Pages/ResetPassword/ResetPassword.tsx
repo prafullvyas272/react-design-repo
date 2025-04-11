@@ -9,7 +9,7 @@ export default function ResetPassword() {
           <div className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
             <img
               alt="Your Company"
-              src="/src/assets/logo.svg"
+              src="/assets/logo.svg"
               className=" h-10 w-auto"
             />
           </div>
@@ -27,7 +27,7 @@ export default function ResetPassword() {
             <div className="relative">
               <div className="mt-2">
                 <span className="absolute login-icons inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <img src="/src/assets/email.svg" />
+                  <img src="/assets/email.svg" />
                 </span>
                 <input
                   id="email"
