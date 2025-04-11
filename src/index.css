@@ -11,7 +11,14 @@
 body {
   margin: 0;
   font-family: 'Aspekta',;
+  overflow: auto;
 
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    overflow: hidden;
+  }
 }
 
 input[type="text"],

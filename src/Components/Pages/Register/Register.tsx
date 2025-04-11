@@ -18,7 +18,7 @@ export default function Register() {
       <div className="grid grid-cols-1 lg:grid-cols-2 min-h-screen bg-white">
         {/* First Section */}
 
-        <div className="flex flex-col justify-center px-6 py-12 mb-10 lg:px-20">
+        <div className="flex flex-col justify-center px-6 py-12 mb-10 lg:px-20 order-2">
           <div className="mx-auto w-full max-w-sm">
             
             <img
@@ -132,7 +132,7 @@ export default function Register() {
         </div>
 
         {/* Second Section */}
-        <div className="flex flex-col justify-center px-6 py-12 bg-gray-50 w-full relative">
+        <div className="flex flex-col justify-center px-6 py-12 bg-gray-50 w-full relative order-1 lg:order-2">
           {/* Text Content */}
           <div className="w-full lg:w-2/3 mx-auto">
             <h2 className="font-semibold text-2xl lg:text-3xl text-left">
