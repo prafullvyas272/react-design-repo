@@ -144,7 +144,7 @@ export default function Register() {
           </div>
 
           {/* Image at bottom, aligned right */}
-          <div className="w-full  flex justify-end">
+          <div className="w-full  flex justify-end new-img">
             <img
               alt="Mobile preview"
               src="/assets/mobiles.png"
