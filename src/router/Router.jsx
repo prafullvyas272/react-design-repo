@@ -15,7 +15,7 @@ const Router = () => {
       <Route path="/contact" element={<div>Contact Page</div>} /> */}
       {/* Optionally, redirect /login to root if needed */}
       {/* <Route path="/login" element={<Login />} /> */}
-      <Route path="/" element={<LoginPage />} />
+      <Route path="/" element={<Register />} />
       <Route path="/login" element={<LoginPage />} />
       <Route path="/reset-password" element={<ResetPassword />} />
       <Route path="/register" element={<Register />} />
